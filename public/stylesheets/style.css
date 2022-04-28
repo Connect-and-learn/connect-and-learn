@@ -1,12 +1,110 @@
 body {
-  padding: 50px;
+  padding: 10px 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00b7ff;
+  /* position: relative; */
 }
 
 h1 {
   color: 15px;
+}
+nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+}
+nav a {
+  text-decoration: none;
+}
+.indexLogin {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  top: 50px;
+  right: 65px;
+}
+.navLogo img{
+  margin-left: 25px;
+}
+.mainPage {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.mainPageText {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  margin-left: 30px;
+}
+.mainPageText h1 {
+  font-weight: 700, bold;
+  font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 80px;
+}
+.mainPageText a {
+  width: 170px;
+  height: 30px;
+  background: #6074D2;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.mainPageImg {
+  padding-top: 40px;
+  width: 620px;
+  height: 520px;
+}
+.descipline {
+  position: absolute;
+}
+.biology {
+  left: 1159.38px;
+  top: 380px;
+}
+.geography {
+  left: 1125.66px;
+  top: 450px;
+}
+.history {
+  left: 778.77px;
+  top: 440px;
+}
+.math {
+  left: 1000.75px;
+  top: 120px;
+}
+.physics {
+  left: 800px;
+  top: 180px;
+}
+.social {
+  left: 1150.88px;
+  top: 280px;
+}
+.signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.signup form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.signup button {
+  width: 170px;
+  height: 30px;
+  background: #6074D2;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  border: none;
 }
